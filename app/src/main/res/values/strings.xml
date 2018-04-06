@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Finance Control</string>
+    <string name="action_settings">Opções</string>
+    <string name="titulo">Finance Control</string>
+    <string name="title_activity_transacao">transacao</string>
+    <string name="title_activity_cota_moeda">CotaMoeda</string>
+    <string name="title_activity_novas_transacoes">novasTransacoes</string>
+</resources>

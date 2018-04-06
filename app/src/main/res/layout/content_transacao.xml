@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".transacao"
+    tools:showIn="@layout/activity_transacao">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="14dp"
+            android:text="Transações Mensais"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="78dp"
+            android:layout_marginTop="106dp"
+            android:text="Super Mercado"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/checkBox"
+            android:layout_below="@+id/checkBox"
+            android:text="Escola"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="234dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/checkBox2"
+            android:layout_below="@+id/checkBox4"
+            android:checked="true"
+            android:duplicateParentState="false"
+            android:text="Roupas"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="234dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/checkBox"
+            android:layout_below="@+id/checkBox2"
+            android:text="Gasolina"
+            android:textSize="30sp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="34dp"
+            android:layout_marginEnd="47dp"
+            android:clickable="true"
+            app:srcCompat="@android:drawable/ic_input_add" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
