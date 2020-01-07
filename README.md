@@ -1,2 +1,2 @@
 # FinanceControl2
-trabalho app mobile
+app mobile
